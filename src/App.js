@@ -1,8 +1,11 @@
 import './App.css';
+import Nav from './Nav';
+import Middle from './Middle'
 
 function App() {
   return (
-    <h1>Hello world</h1>
+    <Nav />,
+    <Middle />
   );
 }
 
