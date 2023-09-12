@@ -4,7 +4,7 @@ import Middle from './Middle'
 function App() {
   return (
     <>  
-      <Nav />,
+      <Nav />
       <Middle />
     </>
   );
