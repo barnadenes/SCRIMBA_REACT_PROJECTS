@@ -20,7 +20,9 @@ code {
 }
 
 #root {
-  width: 40%;
+  text-wrap: wrap;
+  max-width: 40%;
+  height: 100%;
   background-color: white;
 }
 
@@ -31,7 +33,7 @@ nav img {
 nav {
   box-shadow: 0 1px 10px grey;
   padding: 5px 10px;
-  min-width: 500px;
+  min-width: inherit;
 }
 
 .image {
@@ -51,7 +53,7 @@ nav {
   max-width: 500px;
 }
 .img {
-  max-width: 500px;
+  max-width: 100%;
   margin: auto;
 }
 .card {
