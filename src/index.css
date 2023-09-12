@@ -21,9 +21,10 @@ code {
 
 #root {
   text-wrap: wrap;
-  max-width: 40%;
-  height: 100%;
+  max-width: 400px;
+  max-height: 900px;
   background-color: white;
+  overflow: hidden;
 }
 
 nav img {
